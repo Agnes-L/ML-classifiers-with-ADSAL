@@ -35,7 +35,7 @@ pyvis            --0.1.9
 
 Calculation
 
-Three application domain characterisation methods are provided in the code for machine learning models, namely chemical space based, activity cliff based and structure activity landscape-based application domains.
+Three application domain characterisation methods for machine learning models are provided in the code , namely chemical space based, activity cliff based and structure activity landscape-based application domains.
 
 Files are 'pyAppDomain.py' and 'recipes_classifier construction.py'
 
