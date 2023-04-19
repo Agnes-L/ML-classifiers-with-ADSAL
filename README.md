@@ -4,8 +4,10 @@ Data files conclude three kinds of table. The first one is 'Total_data_for_model
 
 2.Construct Classifiers
 1) Environment Set
-python --3.7.10 
+python --3.7.10
+
 rdkit --2020.09.1.0
+
 scikit-learn --0.24.2
 
 2) Modeling 
@@ -18,8 +20,11 @@ Special note: Many thanks to Dr. Zhongyu Wang and Bobo Wang for their contributi
 
 1) Environment Set
 matplotlib  --3.1.3
+
 matplotlib-base  --3.1.3
+
 matplotlib-inline   --0.1.2
+
 pyvis            --0.1.9
 
 2) Calculation
