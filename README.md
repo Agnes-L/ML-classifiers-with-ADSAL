@@ -1,11 +1,11 @@
 # ML-classifiers-with-ADSAL
 1.Load data
 
-Data files conclude three kinds of table. The first one is 'Total_data_for_model.csv', which are the total dataset for modeling in this study. The rest data are training data for cross-validaion and the validation data for extearnal validaion, which can be directly used for the folllowing modeling codes.
+Data used for modeling in this paper are publicly available can be accessed here. Data files conclude three kinds of table. The first one is 'Total_data_for_model.csv', which are the total dataset for modeling in this study. Users can change the way the data is divided according to their modelling needs. The rest data are training data for cross-validaion and the validation data for extearnal validaion, which can be directly used for the folllowing modeling codes.
 
 2.Construct Classifiers
 
-**Environment Set**
+**Requirements**
 
 python --3.7.10
 
@@ -23,7 +23,7 @@ Only one molecular representation and one algorithm are shown in the code, and u
 
 Special note: Many thanks to Dr. Zhongyu Wang and Bobo Wang for their contributions to the establishment of these application domain characterization methods!
 
-**Environment Set**
+**Requirements**
 
 matplotlib  --3.1.3
 
