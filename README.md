@@ -1,9 +1,9 @@
 # ML-classifiers-with-ADSAL
-1.Load data
+1. Load data
 
 Data used for modeling in this paper are publicly available can be accessed here. Data files conclude three kinds of table. The first one is 'Total_data_for_model.csv', which are the total dataset for modeling in this study. Users can change the way the data is divided according to their modelling needs. The rest data are training data for cross-validaion and the validation data for extearnal validaion, which can be directly used for the folllowing modeling codes.
 
-2.Construct Classifiers
+2. Construct Classifiers
 
 **Requirements**
 
