@@ -5,7 +5,7 @@ Data files conclude three kinds of table. The first one is 'Total_data_for_model
 
 2.Construct Classifiers
 
-1) Environment Set
+**Environment Set**
 
 python --3.7.10
 
@@ -13,7 +13,7 @@ rdkit --2020.09.1.0
 
 scikit-learn --0.24.2
 
-2) Modeling 
+**Modeling** 
 
 The code 'recipes_classifier construction.py' is used to construct classifiers in the study. Users can load the data files followed by the instruction in the code.
 
@@ -23,7 +23,7 @@ Only one molecular representation and one algorithm are shown in the code, and u
 
 Special note: Many thanks to Dr. Zhongyu Wang and Bobo Wang for their contributions to the establishment of these application domain characterization methods!
 
-1) Environment Set
+**Environment Set**
 
 matplotlib  --3.1.3
 
@@ -33,7 +33,7 @@ matplotlib-inline   --0.1.2
 
 pyvis            --0.1.9
 
-2) Calculation
+**Calculation**
 
 Three application domain characterisation methods are provided in the code for machine learning models, namely chemical space based, activity cliff based and structure activity landscape-based application domains.
 
