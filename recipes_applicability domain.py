@@ -151,8 +151,10 @@ from sklearn import metrics
 'rigid':[ 1, 10, 20, 30, 50, 70, 100],
 'exp':[ 0.01,  0.5, 1, 1.5,  3, 5, 7]}
 
-yt = df_ext['y_true']
-yprob = df_ext['yExt_probA']
+dfList = pd.read_csv('all_extset_dfAct_SubC.csv',index_col = 'CmpdID')
+dfPlot = pd.merge([dfList,dfEx], axis=1)
+yt = dfPlot['y_true']
+yprob = dfPlot['yExt_probA']
 # the threshold value 0.5 can also be changed according your actual requirment
 yp = (yprob > 0.5).astype(int)
 IAVal_List = [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50]
@@ -167,7 +169,7 @@ for code in ['rigid','exp']:
 
     for densLB in dfAUC.columns:
         for LdUB in dfAUC.index:
-            adi = df_ext.index[(df_ext['simiDensity|'+code] >= densLB)&(df_ext['simiWtLD_w|'+code] <= LdUB)]
+            adi = dfPlot.index[(dfPlot['simiDensity|'+code] >= densLB)&(dfPlot['simiWtLD_w|'+code] <= LdUB)]
             dfn.loc[LdUB,densLB] = adi.shape[0]
             try:
                 dfAUC.loc[LdUB,densLB] = metrics.roc_auc_score(yt[adi],yprob[adi])
