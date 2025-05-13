@@ -33,6 +33,8 @@ conda create -n AD python=3.7.10 -y
 
 conda activate AD
 
+pip install -i https://test.pypi.org/simple/ adsal
+
 conda install -c rdkit rdkit=2020.09.1.0 -y
 
 pip install scikit-learn==0.24.2
@@ -45,7 +47,6 @@ pip install matplotlib-inline==0.1.2
 
 pip install pyvis==0.1.9
 
-pip install -i https://test.pypi.org/simple/ adsal
 
 Calculation
 
