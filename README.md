@@ -56,3 +56,4 @@ Users can set different application domain stringency levels according to the in
 
 Feel free to try and use it!
 
+Please kindly cite the article if you find it helpful: Chem. Res. Toxicol. 2023, 36, 6, 947–958.
